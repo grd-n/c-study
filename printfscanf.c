@@ -50,7 +50,7 @@ int main (void) {
     //경찰관이 범죄자의 정보를 입수 (조서 작성)
     //이름? 나이? 몸무게? 키? 범죄명?
 
-    char name[256];
+    char name[256]; // array.c 공부하다가 넘어옴 (20210205) 여기에 나온 []안의 숫자는 출력 가능한 문자의 크기를 얘기한다.
     int age;
     float weight;
     int height;
