@@ -19,7 +19,7 @@ int main (void)
         {
             cntShowBottle = rand() % 2 + 2; // 보여줄 병 갯수 (2 or 3)
         } while (cntShowBottle == prevCntShowBottle);
-
+        prevCntShowBottle = cntShowBottle;
         int isIncluded = 0; // 보여줄 병 중에 발모제가 포함되었는지 여부 (1: 포함)
         printf("> %d번째 시도 : ", i);
 
